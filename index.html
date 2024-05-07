@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Бросок Кубиков</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="dice-app">
+        <h1>Бросок кубиков DnD</h1>
+        <label for="dice-type">Тип кубика:</label>
+        <select id="dice-type">
+            <option value="4">D4</option>
+            <option value="6">D6</option>
+            <option value="8">D8</option>
+            <option value="10">D10</option>
+            <option value="12">D12</option>
+            <option value="20">D20</option>
+        </select>
+        <label for="dice-count">Количество кубиков:</label>
+        <input type="number" id="dice-count" min="1" max="10" value="1">
+        <label for="modifier">Модификатор:</label>
+        <input type="number" id="modifier" value="0">
+        <button onclick="rollDice()">Бросить кубики</button>
+        <div id="results"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

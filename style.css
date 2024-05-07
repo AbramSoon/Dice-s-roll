@@ -1,0 +1,42 @@
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    padding: 50px;
+    background-color: #eee;
+}
+
+#dice-app {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    display: inline-block;
+}
+
+#dice-type, #dice-count {
+    margin: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+button {
+    background-color: #5C67F2;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #434AB1;
+}
+
+#results {
+    margin-top: 20px;
+    font-size: 24px;
+    color: #333;
+}
